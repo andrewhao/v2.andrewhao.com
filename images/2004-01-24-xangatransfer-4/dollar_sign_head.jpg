@@ -1,0 +1,573 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+<!-- CodeFile="client.master.cs" Inherits="masterpages_client_client" -->
+<head id="ctl00_Head1"><title>
+	Wealth Management: Financial Planning to Help You Build & Preserve Wealth | 1st Source Bank
+</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" /><meta name="distribution" content="global" /><meta name="revisit-after" content="20 days" /><meta name="robots" content="all,follow,index" /><meta name="author" content="Cirrus ABS" /><meta name="owner" content="1st Source Bank" /><meta name="copyright" content="© 2010 www.1stsource.com" /><link rel="stylesheet" type="text/css" media="screen" href="/data/minify/ce474875-1d7e-652c-0e6e-dd6c34c1fb51.css" ><script type="text/javascript" src="/data/minify/71e21447-61fe-c461-0081-e07824704f3f.js"></script>
+    <!--[if IE]>
+    <link href="/css/IE.css" rel="stylesheet" type="text/css" />
+    <![endif]-->
+    <!--[if lt IE 7.]>
+	<script defer type="text/javascript" src="/scripts/pngfix.js"></script>
+	<![endif]-->
+
+    <script type="text/javascript" language="javascript">
+        $(document).ready(function() {
+
+            var config = {
+                sensitivity: 4, // number = sensitivity threshold (must be 1 or higher)    
+                interval: 10, // number = milliseconds for onMouseOver polling interval    
+                over: function(e) {
+
+                    $(this).find("ul li").show();
+                    $(this).find("ul").css("z-index", "1000");
+                    $(this).siblings("li").find("ul").css("z-index", "0");
+                    $(this).siblings("li").find("ul li").hide();
+                }, // function = onMouseOver callback (REQUIRED)    
+                timeout: 400, // number = milliseconds delay before onMouseOut    
+                out: function(e) {
+                    $(this).find("ul li").hide();
+                } // function = onMouseOut callback (REQUIRED)    
+            };
+
+            $(".main-nav li").hoverIntent(config);
+
+            $("input[type='text']").bind("click", function() {
+                var defaultVal = $(this).attr("value");
+                $(this).attr("value", "");
+                $(this).bind("blur", function() {
+                    if ($(this).attr("value") == "") {
+                        $(this).attr("value", defaultVal);
+                        $(this).unbind("blur");
+                    } else {
+                        $(this).unbind();
+                    }
+                });
+            });
+        });
+		
+    </script>
+
+    <script type="text/javascript">
+
+        var redirectSet = false;
+
+        function locationSubmit(e) {
+            if (!redirectSet) {
+                window.location = "/locations-search.aspx?query=" + document.getElementById("locationSearchTxt").value;
+            }
+            redirectSet = true;
+        }
+        function siteSearchSubmit(e) {
+            if (!redirectSet) {
+                window.location = "/search.aspx?query=" + document.getElementById("search").value;
+            }
+            redirectSet = true;
+        }
+
+
+        function siteSearchSubmit2(e) {
+            if (!redirectSet) {
+                window.location = "/search.aspx?query=" + document.getElementById("search2").value;
+            }
+            redirectSet = true;
+        }
+
+
+        function PrePrint() {
+            //alert("Start PrePrint()")
+            if (window.PrePrintAction) {
+                window.PrePrintAction();
+            }
+            //alert("End PrePrint()");
+            //return false;
+        }
+		
+    </script>
+
+    <script type="text/javascript">
+        Cufon.replace('h1');
+        Cufon.replace('.related-links .title');
+        Cufon.replace('.related-links .title2');
+        Cufon.replace('.title-breadcrumb .title .pagetitle');
+        Cufon.replace('.connect-with-us');
+    </script>
+
+    
+    <meta name="title" content="Wealth Management: Financial Planning to Help You Build &amp; Preserve Wealth | 1st Source Bank" /><meta name="abstract" content="1st Source Bank" /><meta name="keywords" content="wealth management, financial advisor, financial plan, customized, build, preserve, personal, family, trust, estate, administration, advice, IRA, bill paying, real estate, management, tax preparation, planning, health care, medical, education" /><meta name="description" content="Knowledgeable, trusted financial advisors to help you custom-create a wealth management plan for your unique financial needs; expertise encompasses trust administration, estate settlement, educational trust/investments, guardianship administration, IRA administration, real estate management, tax preparation &amp; planning, medical insurance reconciliation, etc." /><link href="https://www.1stsource.com/personal/trust-services" rel="canonical" /><meta content="Wealth Management: Financial Planning to Help You Build &amp; Preserve Wealth | 1st Source Bank" xmlns:og="http://opengraphprotocol.org/schema/" property="og:title" /><meta content="article" xmlns:og="http://opengraphprotocol.org/schema/" property="og:type" /><meta content="1st Source Bank" xmlns:og="http://opengraphprotocol.org/schema/" property="og:site_name" /><meta content="Knowledgeable, trusted financial advisors to help you custom-create a wealth management plan for your unique financial needs; expertise encompasses trust administration, estate settlement, educational trust/investments, guardianship administration, IRA administration, real estate management, tax preparation &amp; planning, medical insurance reconciliation, etc." xmlns:og="http://opengraphprotocol.org/schema/" property="og:description" /><meta content="https://www.1stsource.com/personal/trust-services" xmlns:og="http://opengraphprotocol.org/schema/" property="og:url" /><meta content="https://www.1stsource.com/img.axd?a=JFWWCZ3FKVZGYPJFG5SSKMTGMRQXIYJFGJTGS3LBM5SXGJJSMZUGKYLEMVZF62LOOZSXG5C7OBXXE5BNGMZDSLTKOBTSMV3JMR2GQPJQEZEGK2LHNB2D2MBGJZXUS3LBM5SVK4TMHU" xmlns:og="http://opengraphprotocol.org/schema/" property="og:image" /></head>
+<body onbeforeprint="PrePrint();">
+    <div class="wrapper">
+        <form name="aspnetForm" method="post" action="/personal/trust-services" id="aspnetForm" autocomplete="off">
+<input type="hidden" name="ctl00_widgetBox_ctl00_HiddenField" id="ctl00_widgetBox_ctl00_HiddenField" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTI4ODYxOTIyM2QYAQU2Y3RsMDAkd2lkZ2V0Qm94JGJvZHkkQ3VycmVudFBhZ2Ukd2lkZ2V0QXJlYSRjdGwwMCRsaXN0DxQrAApkZGRkZGQVAQJJZBQrAAIUKwABAj0UKwABAnMCAhQrAAECPWQ4S/M7BRQWGLIaEs/I4SoMQpw8pg==" />
+
+
+<script src="/ScriptResource.axd?d=R-2lvvdO1xuzFrpRZpXbVPbL8rjKUn3kqmPhAJ1WCFqYhiTfQE03AqMdfwRUFSxuzdfyjCYR2oLicrCz-CFFeU_IXoSxxtOT7PpypL9JY2zUOlwLVoisydMlvSDa3lvxQHr1rg2&amp;t=ffffffffa63ba0b1" type="text/javascript"></script>
+        <link rel="stylesheet" type="text/css" media="screen" href="/data/minify/04340641-58db-5ee3-4d2b-da42058a1f79.css" ><script type="text/javascript" src="/data/minify/68bf6147-7144-6587-7765-d7dd9d981c93.js"></script><script type="text/javascript">
+            String.prototype.endsWith = function(str){
+            /**/    return (this.match(str+"$")==str)
+            }
+            $(document).ready(function() {
+            /**/    $('a').each(function() {
+            /**/        var host = this.host;
+            /**/        if (this.port != null && this.port.length > 0 && host.endsWith(':' + this.port)) {
+            /**/            host = host.substring(0,host.indexOf(':' + this.port,0));
+            /**/        }
+            /**/        if (host != '' && window.location.host != host.toLowerCase()) {
+            /**/            var needToConfirm = true;
+            /**/            var confirmationMessage = "";
+            /**/            if (confirmationMessage == '') { confirmationMessage = "By accessing the noted link you will be leaving 1st Source Bank's website and entering a website hosted by another party. Your financial institution has not approved this as a reliable partner site. Please be advised that you will no longer be subject to, or under the protection of, the privacy and security policies of 1st Source Bank's website. We encourage you to read and evaluate the privacy and security policies of the site you are entering, which may be different than those of 1st Source Bank's."; }
+            /**/            switch (host.toLowerCase()) {
+            
+                /**/            case 'performancemanager4.successfactors.com':
+                /**/                needToConfirm = false;
+                /**/                confirmationMessage = "By accessing this link, you will be leaving 1st Source Bank\u0027s website and therefore subject to the privacy and security policies of the site you are entering.";
+                /**/                break;
+            
+                /**/            case 'online1.elancard.com':
+                /**/                needToConfirm = true;
+                /**/                confirmationMessage = "By accessing this link, you will be leaving 1st Source Bank\u0027s website and therefore subject to the privacy and security policies of the site you are entering.";
+                /**/                break;
+            
+                /**/            case 'secure.wasatchfunds.com':
+                /**/                needToConfirm = true;
+                /**/                confirmationMessage = "Certain investments and/or mutual funds obtained through 1st Source Bank are NOT FDIC INSURED, not guaranteed by any bank and may lose value. Wasatch-1st Source funds are distributed by ALPS Distributors, Inc.  ";
+                /**/                break;
+            
+                /**/            case 'bbo.1stsource.com':
+                /**/                needToConfirm = false;
+                /**/                confirmationMessage = "";
+                /**/                break;
+            
+                /**/            case 'www.1stsourceonline1.com':
+                /**/                needToConfirm = false;
+                /**/                confirmationMessage = "";
+                /**/                break;
+            
+                /**/            case 'www.secureline.com':
+                /**/                needToConfirm = true;
+                /**/                confirmationMessage = "By accessing this link, you will be leaving 1st Source Bank\u0027s website and therefore subject to the privacy and security policies of the site you are entering.";
+                /**/                break;
+            
+                /**/            case 'www2.iraservicecenter.com':
+                /**/                needToConfirm = true;
+                /**/                confirmationMessage = "By accessing this link, you will be leaving 1st Source Bank\u0027s website and therefore subject to the privacy and security policies of the site you are entering.";
+                /**/                break;
+            
+                /**/            case 'secure4.arcot.com':
+                /**/                needToConfirm = true;
+                /**/                confirmationMessage = "By accessing this link, you will be leaving 1st Source Bank\u0027s website and therefore subject to the privacy and security policies of the site you are entering.";
+                /**/                break;
+            
+                /**/            case 'www.deluxeprovent.ezshield.com/cgwpackageoverview/tabid/399/default.aspx':
+                /**/                needToConfirm = true;
+                /**/                confirmationMessage = "By accessing this link, you will be leaving 1st Source Bank\u0027s website and therefore subject to the privacy and security policies of the site you are entering.";
+                /**/                break;
+            
+                /**/            case 'www.pciapply.com':
+                /**/                needToConfirm = true;
+                /**/                confirmationMessage = "By accessing this link, you will be leaving 1st Source Bank\u0027s website and therefore subject to the privacy and security policies of the site you are entering.";
+                /**/                break;
+            
+                /**/            case 'deluxeprovent.ezshield.com/cgwpackageoverview/tabid/399/default.aspx':
+                /**/                needToConfirm = true;
+                /**/                confirmationMessage = "By accessing this link, you will be leaving 1st Source Bank\u0027s website and therefore subject to the privacy and security policies of the site you are entering.";
+                /**/                break;
+            
+                /**/            case 'www.snl.com':
+                /**/                needToConfirm = false;
+                /**/                confirmationMessage = "";
+                /**/                break;
+            
+                /**/            case 'www2.snl.com':
+                /**/                needToConfirm = false;
+                /**/                confirmationMessage = "";
+                /**/                break;
+            
+                /**/            case 'remotedeposit.1stsource.com':
+                /**/                needToConfirm = true;
+                /**/                confirmationMessage = "By accessing this link, you will be leaving 1st Source Bank\u0027s website and therefore subject to the privacy and security policies of the site you are entering.";
+                /**/                break;
+            
+                /**/            case 'www.fdic.com':
+                /**/                needToConfirm = true;
+                /**/                confirmationMessage = "By accessing this link, you will be leaving 1st Source Bank\u0027s website and therefore subject to the privacy and security policies of the site you are entering.";
+                /**/                break;
+            
+                /**/            case 'http://app.sliderocket.com/app/fullplayer.aspx?id=1186103b-6413-4a5c-9ea8-3170e2247c8b':
+                /**/                needToConfirm = true;
+                /**/                confirmationMessage = "By accessing the noted link you will be leaving 1st Source Bank\u0027s website. We encourage you to read and evaluate the privacy and security policies of the site you are entering.";
+                /**/                break;
+            
+                /**/            case 'https://play.google.com/':
+                /**/                needToConfirm = true;
+                /**/                confirmationMessage = "By accessing this link, you will be leaving 1st Source Bank\u0027s website and therefore subject to the privacy and security policies of the site you are entering.";
+                /**/                break;
+            
+                /**/            case 'https://itunes.apple.com/us/app/apple-store/id375380948?mt=8':
+                /**/                needToConfirm = true;
+                /**/                confirmationMessage = "By accessing this link, you will be leaving 1st Source Bank\u0027s website and therefore subject to the privacy and security policies of the site you are entering.";
+                /**/                break;
+            
+                /**/            case '1stsource.mortgagewebcenter.com':
+                /**/                needToConfirm = false;
+                /**/                confirmationMessage = "";
+                /**/                break;
+            
+                /**/            case 'http://files.parsintl.com':
+                /**/                needToConfirm = false;
+                /**/                confirmationMessage = "";
+                /**/                break;
+            
+                /**/            case 'http://www.magreprints.com/':
+                /**/                needToConfirm = false;
+                /**/                confirmationMessage = "";
+                /**/                break;
+            
+                /**/            case 'files.parsintl.com/eprints/75526.pdf':
+                /**/                needToConfirm = false;
+                /**/                confirmationMessage = "";
+                /**/                break;
+            
+                /**/            case 'http://files.parsintl.com/eprints/75526.pdf':
+                /**/                needToConfirm = false;
+                /**/                confirmationMessage = "";
+                /**/                break;
+            
+                /**/            case 'http://files.parsintl.com/eprints':
+                /**/                needToConfirm = false;
+                /**/                confirmationMessage = "";
+                /**/                break;
+            
+                /**/            case 'parsintl.com':
+                /**/                needToConfirm = false;
+                /**/                confirmationMessage = "";
+                /**/                break;
+            
+                /**/            case 'magreprints.com':
+                /**/                needToConfirm = false;
+                /**/                confirmationMessage = "";
+                /**/                break;
+            
+                /**/            case 'secure5.arcot.com':
+                /**/                needToConfirm = true;
+                /**/                confirmationMessage = "By accessing this link, you will be leaving 1st Source Bank\u0027s website and therefore subject to the privacy and security policies of the site you are entering.";
+                /**/                break;
+            
+                /**/            case 'files.parsintl.com':
+                /**/                needToConfirm = false;
+                /**/                confirmationMessage = "";
+                /**/                break;
+            
+                /**/            case 'liveperson.com':
+                /**/                needToConfirm = false;
+                /**/                confirmationMessage = "";
+                /**/                break;
+            
+                /**/            case 'server.iad.liveperson.net':
+                /**/                needToConfirm = false;
+                /**/                confirmationMessage = "";
+                /**/                break;
+            
+                /**/            case 'liveperson.net':
+                /**/                needToConfirm = false;
+                /**/                confirmationMessage = "";
+                /**/                break;
+            
+                /**/            case 'server.iad.liveperson.com':
+                /**/                needToConfirm = false;
+                /**/                confirmationMessage = "";
+                /**/                break;
+            
+                /**/            case 'career4.successfactors.com':
+                /**/                needToConfirm = false;
+                /**/                confirmationMessage = "";
+                /**/                break;
+            
+                /**/            case 'www.account3000.com':
+                /**/                needToConfirm = false;
+                /**/                confirmationMessage = "";
+                /**/                break;
+            
+            /**/            }
+            /**/            if (needToConfirm) {
+            /**/                $(this).click(function() { DisplayConfirm(confirmationMessage, $(this)); return false; });
+            /**/            }
+            /**/        }
+            /**/    });
+            });
+
+            function DisplayConfirm(msg, link) {
+            /**/    $("<div></div>").html("<p>" + msg + "</p><strong>You will be taken to the following URL:</strong><br>" + link.attr('href')).dialog(
+            /**/    {
+            /**/        title: "Third Party Site Disclaimer",
+            /**/        modal: true,
+            /**/        draggable: false,
+            /**/        resizable: false,
+            /**/        width: 500,
+            /**/        buttons: {
+            /**/            "Decline": function() { $(this).dialog("close").remove(); },
+            /**/            "Continue": function() { $(this).dialog("close").remove(); OpenUrl(link.attr('href'), link.attr('target') || '_blank'); }
+            /**/        }
+            /**/    });
+            }
+
+            function OpenUrl(url, target) {
+            /**/    var oWin = window.open(url, '_blank','scrollbars=yes,resizable=yes,menubar=yes,location=yes,titlebar=yes,toolbar=yes,status=yes');
+            /**/    if (oWin) {
+            /**/        if (oWin.focus) oWin.focus();
+            /**/        return false;
+            /**/    }
+            /**/    oWin = null;
+            /**/    return true;
+            }
+        </script>
+        <span id="ctl00_widgetBox">
+   	        
+        	<div class="header-wrapper">
+            	<a href="/"><img src="/images/logo.gif" id="logo" /></a>
+                <ul id="topNav">
+	<li><a href="/">home</a></li>
+    <li class="spacer">|</li>
+    <li><a href="/contact-us.aspx">contact us</a></li>
+    <li class="spacer">|</li>
+    <li><a href="/about-us/career-opportunities-1">careers</a></li>
+    <li class="spacer">|</li>
+    <li><div class="headerChatBtn">
+    <!-- BEGIN LivePerson Button Code -->
+<div id="lpButDivID-1323988377622"></div>
+<script type="text/javascript" charset="UTF-8" src="https://server.iad.liveperson.net/hc/61441115/?cmd=mTagRepstate&site=61441115&buttonID=1&divID=lpButDivID-1323988377622&bt=1&c=1"></script>
+<!-- END LivePerson Button code -->
+	</div></li>
+</ul>
+                <div class="main-nav">
+                	
+<span class="select-personal">
+	<ul>
+  <li><a href="/personal.aspx" class="personal"></a><ul class="personal-sub">
+      <li><a href="/personal/online-banking-12">Online Banking</a></li>
+      <li><a href="/personal/mobile-1">Mobile </a></li>
+      <li><a href="/personal/checking">Checking</a></li>
+      <li><a href="/personal/savings">Savings</a></li>
+      <li><a href="/personal/loans">Loans</a></li>
+      <li><a href="/personal/private-banking">Private Banking</a></li>
+      <li><a href="/personal/calculators">Calculators</a></li>
+      <li class="nav-selected"><a href="/personal/trust-services">Trust Services</a></li>
+      <li><a href="/personal/investments">Investments</a></li>
+      <li><a href="/personal/insurance-7">Insurance</a></li>
+    </ul>
+  </li>
+  <li><a href="/business.aspx" class="business"></a><ul class="business-sub">
+      <li><a href="/business/business-checking">Checking</a></li>
+      <li><a href="/business/business-loans">Loans</a></li>
+      <li><a href="/business/cash-management">Cash Management</a></li>
+      <li><a href="/business/leasing">Leasing</a></li>
+      <li><a href="/business/specialty-equipment-financing-1">Specialty Equipment Financing</a></li>
+      <li><a href="/business/industry-solutions">Industry Solutions</a></li>
+      <li><a href="/business/business-401k-plans">Business 401(k) Plans</a></li>
+      <li><a href="/personal/insurance-7">Insurance</a></li>
+    </ul>
+  </li>
+  <li><a href="/about-us.aspx" class="about-us"></a><ul class="about-us-sub">
+      <li><a href="/about-us/our-history-values-mission-vision">History, Values, Mission, Vision</a></li>
+      <li><a href="http://www.snl.com/irweblinkx/corporateprofile.aspx?iid=100444">Investor Relations</a></li>
+      <li><a href="/press-releases.aspx">Press Releases</a></li>
+      <li><a href="/about-us/career-opportunities-4">Careers</a></li>
+      <li><a href="/disclosures.aspx">Disclosures</a></li>
+      <li><a href="/contact-us.aspx">Contact Us</a></li>
+      <li><a href="/about-us/community-involvement">Community Involvement</a></li>
+      <li><a href="/about-us/150-2">150 Years</a></li>
+    </ul>
+  </li>
+</ul>
+</span>
+
+                </div>
+              <div class="site-search"><input type="text" id="search" value="Search 1st Source" /> &nbsp;<input type="image" id="search-go"  onclick="siteSearchSubmit(event);return false" src="/images/go-button.gif" /></div>
+            </div>
+            <div class="main-wrapper">
+       		 
+    <script type="text/javascript" src="/data/minify/7d477300-5202-9d99-ac9b-a53970bb057a.js"></script><script type="text/javascript">
+                $(document).ready(function() {
+                var cookieKey = 'page_100';
+
+                if ($.cookie(cookieKey) == null) {
+                /**/    alert('Certain investments and/or mutual funds obtained through 1st Source Bank are NOT FDIC INSURED, not guaranteed by any bank and may lose principal.');
+                /**/    $.cookie(cookieKey, 'true');
+                }
+                });
+            </script><img class="headerImg" src="/img.axd?a=K5UWI5DIHU4TMMBGJBSWSZ3IOQ6TEMRQEZHG6SLNMFTWKVLSNQ6S62LNMFTWK4ZPNBSWCZDFOIWWS3LBM5STCLTKOBTSMUDVOJYG643FHUTGCZDENF2GS33OMFWGG33VNZ2D2MJGJVQXG5DFOJJGKY3POJSESZB5GMYTCJSFNZ2GS5DZKRQWE3DFL4YT25DCNRJXS43UMVWSMRLOORUXI6KJMRPTCPJR" border="0" />
+<div class="title-breadcrumb">
+  <div class="title">
+    <h1>Trust Services</h1>
+  </div>
+  <div class="breadcrumb">
+  <ul>
+    <li class="home"><a href="/">Home</a></li>
+    <li><a href="/personal.aspx">Personal Banking</a></li>
+    <li>Trust Services</li>
+  </ul>
+</div>
+</div>
+<div class="homepage-right-col">
+  <div class="homepage-locations-form">
+    <div class="social-container"><span class="connect-with-us">Connect With Us</span><ul>
+    <li><a href="http://www.facebook.com/partnersfromthefirst" target="_blank" id="facebook-link">Facebook</a></li>
+    <li><a href="http://www.linkedin.com/company/1st-source-bank" target="_blank" id="linkedin-link">LinkedIn</a></li>
+    <li><a href="http://www.twitter.com/1stsourcebank" target="_blank" id="twitter-link">Twitter</a></li>
+    <li><a href="http://www.youtube.com/1stsourcebank" target="_blank" id="youtube-link">Youtube</a></li>
+  </ul>
+</div>
+    <div class="locations-search-box-sidebar"><img src="/images/locations-title.gif" alt="Locations banking center or atm"><br><input type="text" name="location" ID="locationSearchTxt" class="field" value="Enter ZIP code or city, state" onkeydown="if(event.which || event.keyCode){ if((event.which == 13) || (event.keyCode == 13)) { locationSubmit(null);return false;}} else {return true;}">  <input type="image" src="/images/go-button.gif" ID="locationSubmit" onclick="locationSubmit(event);return false" class="locations-go-button"><a href="/locations.aspx?query=46601">Click Here for All Locations.</a></div>
+  </div>
+  <span id="ctl00_widgetBox_body_CurrentPage_widgetArea">
+            
+            <div class="related-links"><span class="title2">Personal Trust &amp; Investment Links</span><ul><li><a href="/personal/personal-asset-managment-group-annual-report" target="_blank">Personal Asset Management Group Annual Report</a></li><li><a href="/data/uploads/2ndQuarter2013EconomicandInvestmentSummary.pdf" target="_blank">Economic &amp; Investment Summary</a></li><li><a href="/data/uploads/outlook2013.pdf" target="_blank">Outlook 2013</a></li><li><a href="/data/uploads/MarketTrends2013Q2.pdf" target="_blank">Market Trends</a></li><li><a href="/personal/online-access-to-your-wealth-management-account">Online Access to your Wealth Management Account</a></li><li><a href="http://www.youtube.com/watch?v=zWKZ24Qzwfo " target="_blank">Managing Your Wealth Over The Long Term: A Video</a></li></ul></div>
+    
+            <div class="widget-item"><div class="graphic-widget"><a href="http://www.youtube.com/watch?v=zWKZ24Qzwfo"><img src="/img.axd?a=K5UWI5DIHUZDIMRGJBSWSZ3IOQ6TAJSON5EW2YLHMVKXE3B5EZIHK4TQN5ZWKPJGMFSGI2LUNFXW4YLMMNXXK3TUHUYCMTLBON2GK4SSMVRW64TEJFSD2MRWHA4A" border="0" /></a></div></div>
+    
+        </span>
+</div>
+<div class="homepage-section">We all have different financial goals. But reaching them often requires the same thing - a close relationship with a knowledgeable, trusted financial advisor.<br /><br />The trusted advisors at 1st Source understand, first of all, that no single financial plan will work for everyone. Your personal 1st Source financial advisor will help you craft a plan that&#8217;s customized to your unique financial needs. The goal? To help you build and preserve your wealth.<br /><br />
+<p>Wealth management is not something you have to &#8220;go alone.&#8221; Let 1st Source guide you in the right financial direction.&nbsp;</p>
+<div><strong><em>Certain investments and/or mutual funds obtained through 1st&nbsp;Source Bank are NOT FDIC INSURED, not guaranteed by any bank and may lose principal.</em>
+<div>&nbsp;</div></strong></div><script type="text/javascript" language="javascript" src="/scripts/adRotator.js"> </script></div>
+<div class="personal-list">
+  <ul>
+    <li><a href="/personal/trust"><span class="personal-list-title">Trust</span><p>
+We’ll structure financial and asset management plans to your specific – and changing – needs.  
+</p></a></li>
+    <li><a href="/personal/estate-planning"><span class="personal-list-title">Estate Planning</span><p>
+Our trusted advisors can help you grow and secure your assets for future generations.  
+</p></a></li>
+    <li><a href="/personal/tax-planning"><span class="personal-list-title">Tax Planning</span><p>
+Even a little tax planning with our help can minimize consequences and preserve your wealth.  
+</p></a></li>
+    <li><a href="/personal/private-banking"><span class="personal-list-title">Private Banking</span><p>Sign up and get unique, personalized, one-on-one banking and investment assistance. </p></a></li>
+  </ul>
+</div>
+<div style="clear:both;"> </div>   
+
+        	</div>
+            <div class="footer-wrapper">
+            	<div class="footer-left">&copy; 1999-2013  <b>1st Source</b>. All Rights Reserved.<br>
+<ul id="footerNav">
+	<li><a href="/personal.aspx">Personal</a></li>
+    <li class="spacer">|</li>
+    <li><a href="/business.aspx">Business</a></li>
+    <li class="spacer">|</li>
+    <li><a href="/about-us.aspx">About Us</a></li>
+    <li class="spacer">|</li>
+    <li><a href="/privacy-policy.aspx">Privacy</a></li>
+    <li class="spacer">|</li>
+    <li><a href="/disclosures.aspx">Disclosures</a></li>
+    <li class="spacer">|</li>
+    <li><a href="/site-map.aspx">Site Map</a></li>
+    <li class="spacer">|</li>
+    <li><a href="/terms-of-service.aspx">Terms of Use</a></li>
+    <li class="spacer">|</li>
+	<li><a href="/careers.aspx">Careers</a></li>
+    <li class="spacer">|</li>
+    <li><a href="/security.aspx">Security</a></li>
+    </ul>
+</div>
+                
+            	    <div class="footer-email">
+					    <a class="addthis_button_email" title="Email to a Friend"><span></span></a>
+                    </div>
+                    <div class="footer-print">
+                	    <a class="addthis_button_print" title="Print this Page"><span></span></a>
+                    </div>
+                    <div class="footer-favorite">
+                	    <a class="addthis_button_favorites" title="Save to Favorites"><span></span></a>
+                    </div>
+            	    <!-- AddThis Button BEGIN -->
+            	    <!-- JAVASCRIPT INLINE /scripts/jquery-include.js -->
+<script type="text/javascript" language="javascript" >
+
+jQuery.extend({includedScripts:{},includeTimer:null,include:function(url,onload){if(jQuery.includedScripts[url]!=undefined){return;}
+jQuery.isReady=false;if(jQuery.readyList==null){jQuery.readyList=[];}
+var script=document.createElement('script');script.type='text/javascript';script.onload=function(){jQuery.includedScripts[url]=true;if(typeof onload=='function'){onload.apply(jQuery(script),arguments);}};script.onreadystatechange=function(){if(script.readyState=='complete'){jQuery.includedScripts[url]=true;if(typeof onload=='function'){onload.apply(jQuery(script),arguments);}}};script.src=url;jQuery.includedScripts[url]=false;document.getElementsByTagName('head')[0].appendChild(script);if(!jQuery.includeTimer){jQuery.includeTimer=window.setInterval(function(){jQuery.ready();},10);}}});jQuery.extend({_ready:jQuery.ready,ready:function(){isReady=true;for(var script in jQuery.includedScripts){if(jQuery.includedScripts[script]==false){isReady=false;break;}}
+if(isReady){window.clearInterval(jQuery.includeTimer);jQuery._ready.apply(jQuery,arguments);}}});
+</script>
+ 
+					<script type="text/javascript" language="javascript">
+						$.include('https://s7.addthis.com/js/250/addthis_widget.js?pub=xa-4a8335631257e4ab');
+						$(document).ready(function () {
+							if(!window.addthis){
+								$(".addthis_toolbox").css("display", "none");
+								window.setTimeout(function(){
+									if(window.addthis){
+										$(".addthis_toolbox").css("display", "inline");
+									}
+								}, 500);
+							}
+						});
+					</script>
+
+				
+                <!-- AddThis Button END -->
+                <script type="text/javascript" language="javascript">
+
+	/* enter the google tracking code here */
+	var GoogletrackerCode = "UA-2902723-1";
+	var googleSuccess = false;
+
+	/* enter domains that should not have information tracked here */
+	var blackListDomains = ["tst.1stsource.com","stg.1stsource.com","beta.1stsource.com"];
+    
+    /* Make sure a real tracking code has been entered */
+    if (GoogletrackerCode != "" && GoogletrackerCode != "UA-0000000-0")
+    {
+        /* Check and make sure we are not at a cirrus domain or staging domain */
+        if (document.location.toString().indexOf(".cirrusabs.com") == -1 &&
+	        document.location.toString().indexOf("staging-") == -1)
+	    {
+	        googleSuccess = true;
+	        /* Check each of the blacklisted domains */
+	        for (var i = 0; i < blackListDomains.length;i++)
+	        {
+	            if (document.location.toString().indexOf(blackListDomains[i]) != -1)
+	            {
+	                /* current domain is one of the blacklisted domains */
+	                googleSuccess = false;
+	                break;
+	            }
+	        }
+	        if (googleSuccess)
+	        {
+	            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+	            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	        }
+	    }
+    }
+</script>
+<script type="text/javascript" language="javascript">
+    if (googleSuccess) 
+    {
+       var pageTracker = _gat._getTracker(GoogletrackerCode);
+       pageTracker._initData();
+       pageTracker._trackPageview();
+	 }
+</script>
+	
+
+            </div>
+         </span>
+        
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {var fn = function() {$get('ctl00_widgetBox_ctl00_HiddenField').value = '';Sys.Application.remove_init(fn);};Sys.Application.add_init(fn);})();Sys.Application.initialize();
+//]]>
+</script>
+</form>
+    </div>
+    <!-- BEGIN LivePerson Monitor. -->
+
+    <script language='javascript'>        var lpMTagConfig = { 'lpServer': "server.iad.liveperson.net", 'lpNumber': "61441115", 'lpProtocol': (document.location.toString().indexOf('https:') == 0) ? 'https' : 'http' }; function lpAddMonitorTag(src) { if (typeof (src) == 'undefined' || typeof (src) == 'object') { src = lpMTagConfig.lpMTagSrc ? lpMTagConfig.lpMTagSrc : '/hcp/html/mTag.js'; } if (src.indexOf('http') != 0) { src = lpMTagConfig.lpProtocol + "://" + lpMTagConfig.lpServer + src + '?site=' + lpMTagConfig.lpNumber; } else { if (src.indexOf('site=') < 0) { if (src.indexOf('?') < 0) src = src + '?'; else src = src + '&'; src = src + 'site=' + lpMTagConfig.lpNumber; } }; var s = document.createElement('script'); s.setAttribute('type', 'text/javascript'); s.setAttribute('charset', 'iso-8859-1'); s.setAttribute('src', src); document.getElementsByTagName('head').item(0).appendChild(s); } if (window.attachEvent) window.attachEvent('onload', lpAddMonitorTag); else window.addEventListener("load", lpAddMonitorTag, false);</script>
+
+    <!-- END LivePerson Monitor. -->
+</body>
+</html>

@@ -1,0 +1,20 @@
+---
+author: andrewhao
+comments: true
+date: 2011-04-20 18:36:09+00:00
+layout: post
+slug: oh-yeah
+title: Oh yeah,
+wordpress_id: 1443
+categories:
+- Internship
+- Regeneration
+---
+
+Here's a few fun pictures:
+
+[![Intern Photoshoot](http://farm6.static.flickr.com/5061/5588748575_b432b58ba9.jpg)](http://www.flickr.com/photos/andrewhao/5588748575/)
+
+[![Intern Photoshoot](http://farm6.static.flickr.com/5229/5589348424_3fd96d271d.jpg)](http://www.flickr.com/photos/andrewhao/5589348424/)
+
+[![Intern Photoshoot](http://farm6.static.flickr.com/5051/5588746865_002b3ed953.jpg)](http://www.flickr.com/photos/andrewhao/5588746865/)

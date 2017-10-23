@@ -1,0 +1,22 @@
+---
+author: andrewhao
+comments: true
+date: 2011-12-27 13:39:30+00:00
+layout: post
+slug: scenes
+title: Scenes
+wordpress_id: 1566
+categories:
+- Family
+- Photos
+---
+
+[caption id="" align="alignnone" width="500" caption="grandpa at the window"][![grandpa at the window](http://farm8.staticflickr.com/7016/6568366311_5cff7534f4.jpg)](http://www.flickr.com/photos/andrewhao/6568366311/)[/caption]
+
+[caption id="" align="alignnone" width="500" caption="牛肉麵 (Beef noodle soup). I aim to eat this at least once a day. So far, doing pretty well."][![牛肉麵 (Beef noodle soup)](http://farm8.staticflickr.com/7030/6568370671_5905fb5f99.jpg)](http://www.flickr.com/photos/andrewhao/6568370671/)[/caption]
+
+[caption id="" align="alignnone" width="500" caption="At the Grand Hotel Taipei."][![Grand Hotel Taipei](http://farm8.staticflickr.com/7016/6568384555_45da8a61a4.jpg)](http://www.flickr.com/photos/andrewhao/6568384555/)[/caption]
+
+[caption id="" align="alignnone" width="500" caption="Bakery <3. Like something outta a dream."][![Bakery <3](http://farm8.staticflickr.com/7026/6568408211_23c31a2ceb.jpg)](http://www.flickr.com/photos/andrewhao/6568408211/)[/caption]
+
+[caption id="" align="alignnone" width="500" caption="My cousin Audrey being her spunky self."][![Audrey being Audrey](http://farm8.staticflickr.com/7172/6568477673_7ffc5bfcfc.jpg)](http://www.flickr.com/photos/andrewhao/6568477673/)[/caption]

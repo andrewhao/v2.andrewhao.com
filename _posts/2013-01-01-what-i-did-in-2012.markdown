@@ -1,0 +1,30 @@
+---
+author: andrewhao
+comments: true
+date: 2013-01-01 23:17:31+00:00
+layout: post
+slug: what-i-did-in-2012
+title: What I did in 2012
+wordpress_id: 2338
+categories:
+- God
+- Life
+- Running
+- Triathlon
+---
+
+Competitively, this was a good year. I [ran a 3:05 PR](http://www.andrewhao.com/2012/03/15/already-and-still-not-yet/) at Napa (yay!), but missed Boston by seconds (argh).
+
+I was [frustrated with my plantar fasciitis](http://www.andrewhao.com/2012/05/07/seasons-shift/), but that gave me an opportunity to go into the swim and the bike and there were a lot of good memories doing long bike rides: Mt. Diablo + Mt. Tam with Bruce and friends. I also learned to swim in open water! Did my first [Olympic tri](http://www.andrewhao.com/2012/07/15/golden-gate-tri-recap/), with a crazy current. Got a few friends to do a Tri for Fun. Come October, the PF began clearing out and I started hitting the trails again :)
+
+2013 will be the year I attempt my first [50mi race](http://www.ar50mile.com/), and I'm really looking forward to the training runs on the trails. I think I'll end up doing a half-Ironman in there somewhere. And perhaps another attempt at Boston in the fall. Nate's going to be training for Western States, and I figure if I run with that guy enough I should be in good shape...
+
+2012 was the year I started getting serious about [photography](http://www.facebook.com/andrewhaophotography)! I'm finding that I'm learning a lot more about the craft. Figuring out the technical details is important, but more than that, it's about working with subjects, making them feel at ease. It's about finding light and keeping your eyes open always and going with your gut. It's about taking risks and trying new poses and settings. Wedding-wise, it's about planning, preparation and being on your toes. I have a lot to learn still, and I'm excited about 2013's new assignments.
+
+Wejoinin was kind of on the back burner but Hsiu-Fan and I are nearing the completion of a Rails 3 upgrade. More on that soon on my [technical blog](http://www.g9labs.com).
+
+I took trips to Portland, LA, and even South Carolina.
+
+I went to more than a few weddings and saw quite a few friends get hitched. Congratulations!
+
+And... I started dating again. The feeling's a little surreal, but I like her a lot :)
