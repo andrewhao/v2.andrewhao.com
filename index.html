@@ -1,9 +1,11 @@
 ---
 layout: default
+pagination:
+  enabled: true
 ---
 <div class="blog-index article-list">
   {% assign index = true %}
-  {% for post in site.posts %}
+  {% for post in paginator.posts %}
     <article class="article">
     <div class="post-box" data-href="{{ root_url }}{{ post.url }}">
       {% include article.html %}

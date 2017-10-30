@@ -8,7 +8,7 @@
   {% endunless %}
   <nav class="navbar navbar-static-top" role="navigation">{% include navigation.html %}</nav>
   <div id="content" class="container">
-    {{ content | expand_urls: root_url }}
+    {{ content }}
   </div>
   <footer role="contentinfo">{% include footer.html %}</footer>
   {% include after_footer.html %}

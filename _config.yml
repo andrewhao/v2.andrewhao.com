@@ -26,6 +26,7 @@ github_username:  andrewhao
 markdown: kramdown
 plugins:
   - jekyll-feed
+  - jekyll-paginate-v2
 sass:
   sass_dir: _sass
 
@@ -39,10 +40,16 @@ disqus_show_comment_count: true
 # Google Analytics
 google_analytics_tracking_id: "UA-2330913-10"
 
-# --------------------
-# samwhited/typo theme
-# --------------------
-posts_per_row: 3
+permalink: /:year/:month/:day/:title/
+
+pagination:
+  enabled: true
+  per_page: 6
+  permalink: '/page/:num'
+  title: ':title - page :num of :max'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
