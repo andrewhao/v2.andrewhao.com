@@ -33,7 +33,11 @@ pre {
   clear: both;
 }
 
-.blog-index {
+.article-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
   clear: both;
 }
 
@@ -54,9 +58,15 @@ pre {
   line-height: 1.5em;
   margin: 0 auto;
 }
-
-article {
+.article {
   text-align: center;
+  flex-basis: 100%;
+  @media only screen and (min-width: 768px) {
+    flex-basis: 50%;
+  }
+  @media only screen and (min-width: 1200px) {
+    flex-basis: 33%;
+  }
 }
 .entry-content {
   display: inline-block;
