@@ -27,9 +27,12 @@ markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-paginate-v2
+  - jekyll-archives
 sass:
   sass_dir: _sass
 
+jekyll-archives:
+  enabled: [categories]
 # Typekit ID
 typekit_kitid: "fqn4sju"
 
