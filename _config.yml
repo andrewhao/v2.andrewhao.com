@@ -31,6 +31,8 @@ plugins:
 sass:
   sass_dir: _sass
 
+timezone: America/Los_Angeles
+
 jekyll-archives:
   enabled: [categories]
 # Typekit ID
