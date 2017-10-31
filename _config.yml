@@ -28,6 +28,7 @@ plugins:
   - jekyll-feed
   - jekyll-paginate-v2
   - jekyll-archives
+  - jekyll-compose
 sass:
   sass_dir: _sass
 
