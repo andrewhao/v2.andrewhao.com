@@ -14,16 +14,16 @@ Hi, I'm Andrew. You're reading _Finding momentum_, my log of my personal thought
 
 ### Other places you'll find me:
 
-#### [_The Sweet Spot_](http://www.g9labs.com): My technical blog about Web development, design and anything shiny.
+[_The Sweet Spot_](http://www.g9labs.com): My technical blog about Web development, design and anything shiny.
 
-#### Github: [andrewhao](http://www.github.com/andrewhao)
+Github: [andrewhao](http://www.github.com/andrewhao)
 
-#### LinkedIn: [andrewhao](http://www.linkedin.com/in/andrewhao)
+LinkedIn: [andrewhao](http://www.linkedin.com/in/andrewhao)
 
-#### Twitter: [@andrewhao](http://www.twitter.com/andrewhao)
+Twitter: [@andrewhao](http://www.twitter.com/andrewhao)
 
-#### Flickr: [andrewhao](http://flickr.com/photos/andrewhao)
+Flickr: [andrewhao](http://flickr.com/photos/andrewhao)
 
-#### Last.fm: [gsgnine](http://last.fm/user/gsgnine)
+Last.fm: [gsgnine](http://last.fm/user/gsgnine)
 
-#### Delicious: [gsgnine](http://www.delicious.com/gsgnine)
+Delicious: [gsgnine](http://www.delicious.com/gsgnine)
