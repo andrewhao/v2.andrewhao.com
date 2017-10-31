@@ -35,6 +35,8 @@ timezone: America/Los_Angeles
 
 jekyll-archives:
   enabled: [categories]
+  layout: category
+
 # Typekit ID
 typekit_kitid: "fqn4sju"
 
