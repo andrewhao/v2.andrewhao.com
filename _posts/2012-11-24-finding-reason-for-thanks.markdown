@@ -11,7 +11,7 @@ categories:
 - God
 ---
 
-[![Up and over](http://farm9.staticflickr.com/8210/8184502276_7dcb9b2040.jpg)](http://www.flickr.com/photos/andrewhao/8184502276/)
+<span class="text-center">[![Up and over](https://c1.staticflickr.com/9/8210/8184502276_c78a15b0b5_z_d.jpg)](http://www.flickr.com/photos/andrewhao/8184502276/)</span>
 
 I'm sitting at Coffee Society here back home,  journaling and feeling generally overwhelmed by God's goodness. I'm not sure when I felt it, but it might have been yesterday's slow, rambling run through the foothills from pre-dawn dusk to midmorning cool, or experiencing the long-anticipated togetherness of a Thanksgiving meal. Or maybe it was just hanging with Annie over lunch and being able to feel like a big brother again, or that my dad just dropped a new iPhone in my lap... just like that. I'm seeing movement in my life, and things feel like they're coming together. I just had the thought... I can't deserve much of this. Things shouldn't be this good.
 

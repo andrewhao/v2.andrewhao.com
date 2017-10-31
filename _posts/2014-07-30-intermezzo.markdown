@@ -7,8 +7,8 @@ categories:
 - Andrew 2.0
 - life
 - relationships
-cover: https://farm4.staticflickr.com/3875/14603294084_16c6326440_d.jpg
-thumbnail: https://farm4.staticflickr.com/3875/14603294084_16c6326440_q_d.jpg
+cover: https://c2.staticflickr.com/4/3875/14603294084_1dd0062db9_z.jpg
+thumbnail: https://c2.staticflickr.com/4/3875/14603294084_1dd0062db9_q_d.jpg
 cover_title: On the slopes of Mt. Wilson, trying out the new
 cover_link: https://www.flickr.com/photos/andrewhao/14603294084/
 

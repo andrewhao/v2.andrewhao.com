@@ -10,10 +10,10 @@ categories:
 - life
 - Andrew 2.0
 
-cover: https://c1.staticflickr.com/1/625/22931476830_2d2f38c614_z.jpg
-thumbnail: https://c1.staticflickr.com/1/625/22931476830_2d2f38c614_q.jpg
+cover: https://c1.staticflickr.com/5/4479/38055212011_596467fe3a_z_d.jpg
+thumbnail: https://c1.staticflickr.com/5/4479/38055212011_596467fe3a_q_d.jpg
 cover_title: Cloud elevator. Taken at Mt. Tam.
-cover_link: http://instagram.com/p/ZLYqJkCiFu/
+cover_link: https://www.flickr.com/photos/andrewhao/38055212011/
 ---
 To be honest? This year felt a little like autopilot. Like I was caught
 dealing with _Life_ as it happened, doing a zillion different things

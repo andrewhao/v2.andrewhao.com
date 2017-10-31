@@ -1,6 +1,6 @@
 <div class="nav-collapse collapse">
 <ul class="nav subscription pull-right" data-subscription="rss{% if site.subscribe_email %} email{% endif %}">
-  <li><a href="{{ site.subscribe_rss }}" rel="alternate" data-type="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  <li><a href="{{ root_url }}/feed.xml" rel="alternate" data-type="subscribe-rss" title="subscribe via RSS">RSS</a></li>
   {% if site.subscribe_email %}
     <li class="divider-vertical"></li>
     <li><a href="{{ site.subscribe_email }}" data-type="subscribe-email" title="subscribe via email">Email</a></li>
