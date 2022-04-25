@@ -22,16 +22,14 @@
       {% endif %}
       <h1 class="entry-title">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</h1>
     {% endif %}
-    {% unless page.meta == false %}
       <p class="meta">
-        {% include post/date.html %}{{ time }}
+      {{ post.date | date: "%B %d, %Y" }}
       </p>
-    {% endunless %}
   </header>
 {% endunless %}
 {% if index %}
   {% if post.excerpt %}
-  <div class="entry-content">{{ post.excerpt }}</div>
+  <div class="entry-content">{{ post.content | strip_html | truncatewords: 40 }}</div>
   {% else %}
     {% if site.excerpt_max_length %}
       {% assign excerpt_max_length = site.excerpt_max_length %}
@@ -41,7 +39,7 @@
     {% if post.description %}
     <div class="entry-content">{{ post.description | strip_html | truncatewords: excerpt_max_length }}</div>
     {% else %}
-    <div class="entry-content">{{ content | excerpt | strip_html | truncatewords: excerpt_max_length }}</div>
+    <div class="entry-content">{{ content | strip_html | truncatewords: excerpt_max_length }}</div>
     {% endif %}
   {% endif %}
 {% else %}

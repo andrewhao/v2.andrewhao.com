@@ -1,6 +1,8 @@
 ---
 layout: post
 title: You can't go back again
+categories:
+- fatherhood
 ---
 
 There's no turning back. When that big Parenthood Switch flips on in your life, you are tossed into every conceivable life change you can imagine. Your time is no longer your own. Your sleep is interrupted, infrequent and faked. Money flies away faster than you can say Baby Wipes On Amazon Prime. Your little one, bless his dear heart, happens to be a fearsome night terror, the cutest man on the face of the planet, and the darkest mystery you will ever encounter.

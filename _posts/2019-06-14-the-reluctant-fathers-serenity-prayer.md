@@ -1,9 +1,9 @@
 ---
 layout: post
 title: The reluctant father's serenity prayer
+categories:
+- fatherhood
 ---
-
-_The reluctant father's Serenity Prayer_
 
 Please give me longsuffering, God, so I can smile when things don't go my way.
 
