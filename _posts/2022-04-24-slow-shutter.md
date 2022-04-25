@@ -9,9 +9,9 @@ You should have known, but how could you have known? It was an inconvenient fact
 
 You all gather in San Diego shortly after hearing the news. You bring the family there from Oakland, Annie comes down from Pasadena. That day everyone goes out to take family photos. It's a perfect June day, the pulsing heat from the sun radiating off the lawn.  The family finds an open field nearby and the kids romp in the field. You set up your tripod and assemble everyone together.
 
-At the moment people seem calm, poised. You hold Mom's hand and she looks at you with tears in her eyes. You don't know what's going to happen. Nobody does, but all we can do is hold each other and smile.
+At the moment people seem calm, poised. You hold Mom's hand and she looks at you with tears in her eyes. You don't know what's going to happen.
 
-We snap photos of us all, in different configurations. Your family, Esther's family, Mom and Dad. Click, click. We bring out the bubble machine for the kids, who chase the bubbles and roll over laughing, screaming, chasing each other. Total chaos.
+You snap photos of the family, in different configurations. Your family, Esther's family, Mom and Dad. Click, click. You bring out the bubble machine for the kids, who chase the bubbles and roll over laughing, screaming, chasing each other. Total chaos. Click, click.
 
 You ask Mom to stand framed by the trees. The light is soft on her. You square up and turn the camera body, focus, and snap a series of photos. She smiles brightly. You step back and everybody's eyes are wet.
 
