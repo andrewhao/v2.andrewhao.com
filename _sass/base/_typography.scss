@@ -69,7 +69,25 @@ abbr, acronym { border-bottom: 1px dotted; cursor: help; }
 pre, code, tt { @extend .mono; }
 sub, sup { line-height: 0; }
 
-hr { margin-bottom: 0.2em; }
+hr {
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+    margin: 2em 0 1.1em 0;
+}
+
+hr:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.9em;
+    font-size: 1.25rem;
+    padding: 0 0.25em;
+    background: white;
+}
 
 small { font-size: .8em; }
 big { font-size: 1.2em; }
