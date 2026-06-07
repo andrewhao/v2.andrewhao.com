@@ -1,3 +1,5 @@
+@use "sass:color";
+
 $spacer-char: "❧";
 
 $text-color: black;
@@ -7,4 +9,4 @@ $title-color: black;
 $subtitle-color: black;
 
 $link-color: rgb(0, 136, 204);
-$link-color-hover: darken($link-color, 15%);
+$link-color-hover: color.adjust($link-color, $lightness: -15%);

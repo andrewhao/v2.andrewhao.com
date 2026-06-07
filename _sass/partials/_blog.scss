@@ -1,3 +1,5 @@
+@use "../base" as *;
+
 @mixin separator {
   content: "\2022 ";
   padding: 0 .4em 0 .2em;
@@ -40,7 +42,7 @@ article {
     padding-bottom: 1em;
   }
 }
-> footer {
+article > footer {
   padding-bottom: 2.5em;
   margin-top: 2em;
   @extend .sans;
