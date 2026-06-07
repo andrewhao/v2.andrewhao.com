@@ -1,3 +1,9 @@
+@mixin separator {
+  content: "\2022 ";
+  padding: 0 .4em 0 .2em;
+  display: inline-block;
+}
+
 article {
   h2, h3 {
     margin-top: 1em;
@@ -44,16 +50,14 @@ article {
     clear: both;
     overflow: hidden;
   }
-  .byline + time:before, time +time:before, .comments:before, .byline ~ .categories:before {
-    @extend .separator;
+  .byline + time:before, time + time:before, .comments:before, .byline ~ .categories:before {
+    @include separator;
   }
 }
 
 
 .separator {
-  content: "\2022 ";
-  padding: 0 .4em 0 .2em;
-  display: inline-block;
+  @include separator;
 }
 
 #content div.pagination {
