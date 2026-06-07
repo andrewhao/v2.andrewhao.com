@@ -8,8 +8,6 @@ title: About
 wordpress_id: 2
 ---
 
-![Profile photo](https://c2.staticflickr.com/4/3814/19771452533_505f5a86aa_z.jpg)
-
 Hi, I'm Andrew. You're reading _Finding momentum_, my log of my personal thoughts, creative writing, and photography.
 
 ### Other places you'll find me:
