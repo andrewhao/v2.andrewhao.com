@@ -4,7 +4,7 @@ title: "Flying when you can't"
 date: 2015-11-20 08:51:27 -0800
 comments: true
 categories:
-- running
+- Running
 - injury
 cover: https://c2.staticflickr.com/4/3814/19771452533_505f5a86aa_z.jpg
 cover_link: https://www.flickr.com/photos/andrewhao/19771452533/

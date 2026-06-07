@@ -3,7 +3,7 @@ layout: post
 title: Quickly does it change
 comments: true
 categories:
-- family
+- Family
 - fatherhood
 cover: https://c1.staticflickr.com/5/4729/39379665601_dce489c310_c.jpg
 cover_link: https://www.flickr.com/photos/andrewhao/39379665601/

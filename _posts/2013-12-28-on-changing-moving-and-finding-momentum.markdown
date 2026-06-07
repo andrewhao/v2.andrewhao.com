@@ -7,7 +7,7 @@ categories:
 - year in review
 - review
 - reflection
-- life
+- Life
 - Andrew 2.0
 
 cover: https://c1.staticflickr.com/5/4479/38055212011_596467fe3a_z_d.jpg

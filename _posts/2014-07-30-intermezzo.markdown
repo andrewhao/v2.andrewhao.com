@@ -5,7 +5,7 @@ date: 2014-07-30 21:25:42 -0700
 comments: true
 categories: 
 - Andrew 2.0
-- life
+- Life
 - relationships
 cover: https://c2.staticflickr.com/4/3875/14603294084_1dd0062db9_z.jpg
 thumbnail: https://c2.staticflickr.com/4/3875/14603294084_1dd0062db9_q_d.jpg

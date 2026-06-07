@@ -4,7 +4,7 @@ title: On the move
 date: 2013-12-28 23:01:44 -0800
 comments: true
 categories: 
-- running
+- Running
 - injury
 - inspiration
 cover: https://c1.staticflickr.com/3/2891/11672187815_e15058639b_z.jpg

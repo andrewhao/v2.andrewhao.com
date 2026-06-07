@@ -4,7 +4,7 @@ title: "Tell your loved ones"
 date: 2016-11-19 18:54:30 -0800
 comments: true
 categories: 
-- family
+- Family
 - death
 cover: https://c2.staticflickr.com/6/5643/30047913714_ea60314909_z.jpg
 cover_link: https://www.flickr.com/photos/andrewhao/30047913714/

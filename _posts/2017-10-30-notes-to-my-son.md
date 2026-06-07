@@ -3,7 +3,7 @@ layout: post
 title: Notes to my son
 comments: true
 categories:
-- family
+- Family
 - fatherhood
 cover: https://c1.staticflickr.com/5/4447/37345979294_e70ebaafb8_c_d.jpg
 cover_link: https://www.flickr.com/photos/andrewhao/37345979294/

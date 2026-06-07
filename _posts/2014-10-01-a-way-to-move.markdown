@@ -5,9 +5,9 @@ date: 2014-10-1 21:25:42 -0700
 comments: true
 categories: 
 - Andrew 2.0
-- life
+- Life
 - hiking
-- running
+- Running
 cover: https://farm3.staticflickr.com/2943/15252229680_933b6715a2_z.jpg
 thumbnail: https://farm3.staticflickr.com/2943/15252229680_933b6715a2_q.jpg
 cover_title: On the slopes of Mt. Wilson, trying out the new
